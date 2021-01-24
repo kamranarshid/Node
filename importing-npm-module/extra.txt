@@ -1,5 +1,0 @@
-npm install
-to setup old prject with modules 
-
-nodemon
-Use to continue the process, Once you instal this package globally (-g) it run contiues. Output would be automatically change as user save file after changes
