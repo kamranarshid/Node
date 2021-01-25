@@ -2,4 +2,11 @@ const getNotes = function () {
     return 'Your notes...'
 }
 
-module.exports = getNotes
+const addNotes = (title, address)=>{
+
+}
+
+module.exports = {
+    getNotes: getNotes,
+    addNotes: addNotes
+}
