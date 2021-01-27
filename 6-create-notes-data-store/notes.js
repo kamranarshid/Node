@@ -42,7 +42,7 @@ console.log(notes.length +">"+ checkTitle.length)
 const listNotes = (title, address)=>{
     const notes = loadNotes()
     notes.forEach((note) => {
-        console.log(note.title +'-'+note.address)
+        console.log(note.title +'- - - '+note.address)
     });
 
 }
