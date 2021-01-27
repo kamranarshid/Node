@@ -54,7 +54,7 @@ const readNotes = (title)=>{
     if(readNote){
         console.log(chalk.greenBright.inverse(readNote.title +'  '+ readNote.address))
     }else{
-        console.log(chalk.redBright.inverse("No Record Found"))
+        console.log(chalk.redBright .inverse("No Record Found"))
     }
     
     
