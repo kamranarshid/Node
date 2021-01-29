@@ -1,7 +1,7 @@
 const request = require('postman-request')
 const postMaster = require('postman-request')
 
-const url = "http://api.weatherstack.com/current?access_key=562f9b5a83f080e5e0f02acb136917ff&%20query=islamabad&units=f"
+const url = "http://api.weatherstack.com/current?access_key=5f9b5a83f080e5e0f02acb136917ff&%20query=islamabad&units=f"
 
 
 request({ url: url , json: true} , (error, response)=>{
